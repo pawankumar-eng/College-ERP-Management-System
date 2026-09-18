@@ -37,9 +37,9 @@ A comprehensive, full-stack web-based ERP solution designed to streamline colleg
    - Ensure the Java Extension Pack and Tomcat for Java extensions are installed.
 3. **Execution:**
    - Add the project directory to your **Apache Tomcat 9** server.
-   - Start Tomcat and open the application in your browser (usually `http://localhost:8080/ERP`).
+   - Start Tomcat and open the application in your browser (usually `http://localhost:8085/ERP`).
 
 ---
 
 ## 👨‍💻 Developer
-Developed by **CSE Student @ Galgotias University**
+Developed by Pawan Kumar | B.Tech CSE @ Galgotias University
