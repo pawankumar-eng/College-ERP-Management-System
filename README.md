@@ -1,36 +1,45 @@
 # 🎓 College ERP Management System
 
 ## 📖 About
-A complete web-based ERP solution for colleges to digitize student, faculty, fees, attendance, and department management.
+A comprehensive, full-stack web-based ERP solution designed to streamline college operations. It digitizes student and faculty management, fee processing, attendance tracking, result publication, and university-wide notifications. 
 
-## 💻 Tech Stack
-- **Backend**: Java, Servlets, JSP, JDBC
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, Bootstrap
-- **Server**: Apache Tomcat 9
+## 💻 Tech Stack & Tools
+**Frontend & UI:**
+* **Languages:** HTML5, CSS3, JavaScript (Vanilla)
+* **Views:** JSP (JavaServer Pages)
+* **Design:** Custom Glassmorphism UI, Google Fonts (Inter)
 
-## ⚙️ Key Modules
+**Backend & Database:**
+* **Core:** Java (Servlets, JDBC)
+* **Database:** MySQL
+
+**Development Tools & Environment:**
+* **Server:** Apache Tomcat 9
+* **IDEs & Tools:** VS Code, MySQL Workbench, Git
+
+## ⚙️ Key Modules & Features
 
 | Module | Features & Capabilities |
 | :--- | :--- |
-| 🛡️ **Admin Module** | Manage students, faculty, departments, courses |
-| 🧑‍🎓 **Student Module** | View profile, fees, attendance, results |
-| 👨‍🏫 **Faculty Module** | Mark attendance, upload results, manage students |
-| 🔐 **Authentication** | Role-based login for Admin, Faculty, and Student |
+| 🛡️ **Admin Dashboard** | Database setup/cleanup, generate reports, manage college fees, broadcast notifications, and configure timetables. |
+| 👨‍🏫 **Teacher Dashboard** | Mark daily student attendance, upload academic results, and view official notifications. |
+| 🧑‍🎓 **Student Dashboard** | View real-time attendance, access academic results, view & pay fees, check class timetables, and receive notices. |
+| 🔐 **Authentication** | Secure, role-based login routing for Admins, Teachers, and Students with dynamic UI rendering. |
 
 ## 🚀 How to Run
 
-1. **Database Setup:** 
-   - Import the project's SQL file into your local MySQL server.
-   - Update the database credentials (`username` and `password`) in your JDBC connection class.
-2. **IDE Configuration:** 
-   - Import the project into Eclipse IDE for Enterprise Java (or your preferred IDE).
-   - Add the **Apache Tomcat 9** server to your IDE configuration.
+1. **Database Setup (MySQL Workbench):** 
+   - Open **MySQL Workbench** and create a new database.
+   - Run the provided `SetupDB.java` servlet or import the database SQL tables.
+   - Update your database credentials (username/password) in the `DBConnection.java` file.
+2. **IDE Configuration (VS Code / Eclipse):** 
+   - Open the project folder in **VS Code** (or your preferred IDE).
+   - Ensure the Java Extension Pack and Tomcat for Java extensions are installed.
 3. **Execution:**
-   - Deploy the project to Tomcat.
-   - Start the server and open the application in your browser (usually `http://localhost:8080/ERP`).
+   - Add the project directory to your **Apache Tomcat 9** server.
+   - Start Tomcat and open the application in your browser (usually `http://localhost:8080/ERP`).
 
 ---
 
 ## 👨‍💻 Developer
-**Developed by:** CSE Student @ Galgotias University
+Developed by **CSE Student @ Galgotias University**
